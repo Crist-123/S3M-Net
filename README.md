@@ -24,20 +24,6 @@ In summary, the main contributions of this article include:
 - A **feature fusion adaption module** to transform the shared feature maps into semantic space and subsequently fuse them with encoded disparity features;
 - A **semantic consistency-guided loss function** to supervise the training process of the joint learning framework, emphasizing on the structural consistency in both tasks.
 
-## Released Contents
-
-This release contains the core model and training/demo entry points:
-
-```text
-core/
-sampler/
-figs/
-demo.py
-train_stereo.py
-```
-
-Datasets, checkpoints, evaluation scripts, and other auxiliary files are not included in this release.
-
 ## Installation
 
 Create a Python environment with PyTorch and common computer-vision dependencies:
