@@ -33,11 +33,10 @@ core/
 sampler/
 figs/
 demo.py
-evaluate_stereo.py
 train_stereo.py
 ```
 
-Datasets, checkpoints, and other auxiliary files are not included in this release.
+Datasets, checkpoints, evaluation scripts, and other auxiliary files are not included in this release.
 
 ## Installation
 
@@ -72,26 +71,3 @@ python demo.py \
 ```
 
 Add `--save_numpy` to save raw disparity arrays in addition to visualizations.
-
-## Training
-
-Train S<sup>3</sup>M-Net with a prepared stereo and semantic segmentation dataset:
-
-```bash
-python train_stereo.py \
-  --train_datasets kitti \
-  --batch_size 1 \
-  --image_size 320 640 \
-  --num_steps 1000 \
-  --name s3mnet
-```
-
-Checkpoints are saved under:
-
-```text
-checkpoints/
-```
-
-## Repository Status
-
-This repository currently contains the core source files required for S<sup>3</sup>M-Net model development and basic training/inference. Additional assets such as pretrained weights, datasets, and full evaluation utilities may be released separately.
