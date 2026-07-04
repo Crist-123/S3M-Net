@@ -33,10 +33,11 @@ core/
 sampler/
 figs/
 demo.py
+evaluate_stereo.py
 train_stereo.py
 ```
 
-Datasets, checkpoints, evaluation scripts, and other auxiliary files are not included in this release.
+Datasets, checkpoints, and other auxiliary files are not included in this release.
 
 ## Installation
 
