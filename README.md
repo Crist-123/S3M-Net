@@ -1,6 +1,8 @@
-# S<sup>3</sup>M-Net: Semantic Segmentation and Stereo Matching Joint Learning
+# S<sup>3</sup>M-Net: Semantic Segmentation and Stereo Matching Joint Learning (TIV 2024)
 
 This repository provides the core implementation of **S<sup>3</sup>M-Net**, a joint learning framework for semantic segmentation and stereo matching in autonomous driving scenarios.
+
+Paper link: https://ieeexplore.ieee.org/abstract/document/10412168
 
 ## Overview
 
@@ -57,4 +59,3 @@ python demo.py \
 ```
 
 Add `--save_numpy` to save raw disparity arrays in addition to visualizations.
-
